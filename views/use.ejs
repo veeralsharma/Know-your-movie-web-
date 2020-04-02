@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+<div class="centerdiv">
+  <i class="fa fa-imdb fa-5x IMDB" aria-hidden="true"></i>
+
+  <h1>Type the name of the movie you want to know</h1>
+
+  <form action="/use" method="POST">
+
+        <div class="form-group">
+          <input type="text" class="form-control text-center" name="movie" placeholder="name your movie">
+        </div>
+        <button type="submit" class="btn btn-dark">Know</button>
+      </form>
+
+</div>
+
+
+<%- include('partials/footer') %>
